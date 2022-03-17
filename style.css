@@ -1,0 +1,57 @@
+.row {
+    height: 100px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    background-color: silver;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 1px solid black;
+}
+
+.display {
+    width: 390px;
+    color: white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.box:hover {
+    background-color: gainsboro;
+}
+
+.box:active {
+    background-color: gray;
+}
+
+.right {
+    background-color: orange;
+    color: white;
+}
+
+.right:hover {
+    background-color: #FAC898;
+}
+
+.right:active {
+    background-color: darkorange;
+}
+
+.clear {
+    width: 200px;
+}
+
+.zero {
+    width: 300px;
+}
